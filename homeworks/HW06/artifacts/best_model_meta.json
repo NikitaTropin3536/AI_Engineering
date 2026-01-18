@@ -1,0 +1,12 @@
+{
+    "best_model": "RandomForest",
+    "best_params": {
+        "model__max_features": "sqrt",
+        "model__min_samples_leaf": 2
+    },
+    "test_metrics": {
+        "Accuracy": 0.9245833333333333,
+        "F1": 0.8774542992552471,
+        "ROC-AUC": 0.9648213333502615
+    }
+}
