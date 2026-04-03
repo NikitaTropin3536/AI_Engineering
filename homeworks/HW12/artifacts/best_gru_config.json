@@ -1,12 +1,17 @@
 {
-	"architecture": "GRU_1_layer",
-    "window_size": 14,
-    "hidden_size": 64,
-    "num_layers": 1,
-    "batch_size": 64,
-    "learning_rate": 0.001,
-    "epochs": 30,
-    "scaler": "StandardScaler",
-    "seed": 42,
-    "optimizer": "Adam"
+  "model": "GRUForecaster",
+  "input_size": 1,
+  "hidden_size": 64,
+  "num_layers": 2,
+  "dropout": 0.1,
+  "window_size": 48,
+  "horizon": 1,
+  "batch_size": 64,
+  "optimizer": "Adam",
+  "lr": 0.001,
+  "epochs": 50,
+  "seed": 42,
+  "scaler": "StandardScaler",
+  "scaler_mean": 128.20576058201058,
+  "scaler_std": 18.48154222978581
 }
